@@ -19,7 +19,7 @@ async def help(ctx):
     
 @client.command()
 async def code(ctx):
-    await ctx.send('https://github.com/Poitnless/pythonbot')
+    await ctx.send('hio')
 
 
 client.run(os.environ['token'])
