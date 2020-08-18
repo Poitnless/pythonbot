@@ -8,7 +8,7 @@ client = commands.Bot(command_prefix = '+')
 @client.event
 async def on_ready():
 
-    await client.change_presence(status=discord.Status.idle, activity=discord.Game('Type +code For Persistants PythonBot Code'))
+    await client.change_presence(status=discord.Status.idle, activity=discord.Game('+code PythonBot Code'))
     
     print('On')
 
