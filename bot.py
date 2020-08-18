@@ -16,10 +16,5 @@ async def on_ready():
 async def help(ctx):
     await ctx.send('Type +code For Persistants PythonBot Code')
 
-    
-@client.command()
-async def code(ctx):
-    await ctx.send('hiao')
-
 
 client.run(os.environ['token'])
