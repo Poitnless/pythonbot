@@ -14,6 +14,6 @@ async def on_ready():
 
 @client.command()
 async def code(ctx):
-    await ctx.send('Type +code For Persistants PythonBot Code')
+    await ctx.send('https://github.com/Poitnless/pythonbot')
 
 client.run(os.environ['token'])
