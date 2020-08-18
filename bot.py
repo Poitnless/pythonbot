@@ -19,7 +19,7 @@ async def help(ctx):
     
 @client.command()
 async def code(ctx):
-    await ctx.send('hio')
+    await ctx.send('hiao')
 
 
 client.run(os.environ['token'])
