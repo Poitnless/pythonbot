@@ -8,12 +8,12 @@ client = commands.Bot(command_prefix = '+')
 @client.event
 async def on_ready():
 
-    await client.change_presence(status=discord.Status.idle, activity=discord.Game('+help For Commands'))
+    await client.change_presence(status=discord.Status.idle, activity=discord.Game('Type +code For Persistants PythonBot Code'))
     
     print('On')
 
 @client.command()
-async def hel(ctx):
+async def code(ctx):
     await ctx.send('Type +code For Persistants PythonBot Code')
 
 client.run(os.environ['token'])
