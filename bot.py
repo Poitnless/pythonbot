@@ -13,4 +13,4 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send('hello')
 
-client.run(os.environ['token')
+client.run(os.environ['token'])
